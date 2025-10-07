@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link crossorigin="" href="https://fonts.gstatic.com/" rel="preconnect"/>
+<link as="style" href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" onload="this.rel='stylesheet'" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#19b3e6",
+              "background-light": "#f6f7f8",
+              "background-dark": "#111d21",
+            },
+            fontFamily: {
+              display: ["Manrope"],
+            },
+            borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col justify-between group/design-root">
+<div>
+<header class="flex items-center justify-between p-4 bg-background-light dark:bg-background-dark shadow-sm">
+<h2 class="text-xl font-bold text-gray-900 dark:text-white flex-1 text-center pl-10">Dr. Amelia Hayes</h2>
+<button class="p-2 rounded-full hover:bg-primary/10 dark:hover:bg-primary/20">
+<span class="material-symbols-outlined text-gray-700 dark:text-gray-300"> menu </span>
+</button>
+</header>
+<main>
+<section class="relative min-h-[50vh] flex items-center justify-center text-center p-4 bg-cover bg-center" style='background-image: linear-gradient(rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDLN6u8T7tng1yD2hTOJJ4_2CZa2nkmJFEhiy5AF5dHkB6EgirBXBjsA_eHnnxWjqlHe0087Es9Dpfv0j8N9NGTUG9HT64zK3S5FlE1MhBXnB9Vqpf0SKV21Ff8Ie_X8zyoeHcW2Sqh0CUm37UQ4oENkJTyyR2Gyu3NsusgMvR7M2hSMobapqdc9MkP9HEgAHu4FKJv0xwDaHPqz18id81vUmLBmp30GbavpDVjq8vhvDao-6YnJowLtjrS3TS3suZMMUOnw9uhhKFp");'>
+<div class="max-w-2xl text-white">
+<h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl">Helping you find inner balance</h1>
+<p class="mt-4 text-base leading-relaxed">
+                Dr. Amelia Hayes is a licensed psychologist specializing in individual and family therapy. With over 10 years of experience, she provides a safe and supportive
+                environment for clients to explore their challenges and achieve personal growth.
+              </p>
+<button class="mt-8 px-6 py-3 bg-primary text-white font-bold rounded-lg shadow-lg hover:bg-opacity-90 transition-transform transform hover:scale-105">Book Online</button>
+</div>
+</section>
+<section class="py-12 px-4" id="about">
+<h2 class="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">About Dr. Hayes</h2>
+<div class="flex flex-col items-center gap-6 text-center">
+<img alt="Dr. Amelia Hayes" class="w-32 h-32 rounded-full object-cover shadow-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCK-G5n6I7xmA11jQsIL8F81Xz5XZHZoivwgD_lT4mKc92CXqWASIdgofSC90A1_qWk2la-VBPyDOB2JGX8fkZzNKYbyh-6VrYwSmBWmvxGMs4-jdTlnR4a0uFCR5cxz54r-DljXOROQfT1KoZ66CD2ydnmUf8pvpT3F0rGaFz4fXE5GmoGHQoOS6DWxl7ajsvM9FvbltX56-yYR44L9ctkcS7V3BOvHOCTOHWPsV-M7EWAyAxHn91Q87DKqJJT3NJtbG4evr0EPU69"/>
+<div>
+<h3 class="text-2xl font-bold text-gray-900 dark:text-white">Dr. Amelia Hayes</h3>
+<p class="text-gray-500 dark:text-gray-400">Licensed Psychologist</p>
+<p class="mt-2 max-w-xl mx-auto text-gray-600 dark:text-gray-300">
+                  With a decade of experience, Dr. Hayes is dedicated to providing compassionate and effective therapy. Her approach is client-centered, focusing on building a
+                  strong therapeutic relationship to facilitate healing and growth.
+                </p>
+</div>
+</div>
+</section>
+<section class="py-12 px-4 bg-background-light dark:bg-background-dark" id="services">
+<h2 class="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">Services</h2>
+<div class="flex overflow-x-auto space-x-4 pb-4">
+<div class="flex-shrink-0 w-64 bg-white dark:bg-gray-800 rounded-xl shadow-md p-4">
+<img alt="Individual Therapy" class="w-full h-40 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7l62KhIMvro_KyvjGMWJxMbjvnaAYzqgkvDH1IhuL9mv6CJG-X7j8OHR1YFIdxvplbDJ9ZWV5pKZuQKAa53KVVGdqCcTo7_i4d7LJyFVD77j5KQ0GoYMIHifYRtYRGiE3Gb9cmVsrHCGBnBOTyl9hR2SpZZ0mudy6XQ37VtOOx7jILpMIbNSNc_Wqsfn8uRCjtUGGJn4wccCkGsUJ5A3-GBfneaRbH2D0aUvRvVTCVYmzKI4BnyVnGVcgYkoH82IP7-kY4YiFvAby"/>
+<h4 class="font-bold text-lg text-gray-900 dark:text-white">Individual Therapy</h4>
+<p class="text-sm text-gray-600 dark:text-gray-300">Personalized therapy sessions to address individual needs and promote well-being.</p>
+</div>
+<div class="flex-shrink-0 w-64 bg-white dark:bg-gray-800 rounded-xl shadow-md p-4">
+<img alt="Family Therapy" class="w-full h-40 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOTZVyqfppRAMNIkYC_SPG566TzGTfBv4TQcyb922eU9wQWk238V6eWfWsu6thL0HrFtFW5LdFtUB5rvmfP92QTAxdnMm1hN_yHwxwA1pIBDF9g0FeWPhJSkHn7WYl6JB7ztn9YgzXyriLgT_9keVs5ivUMtZvXcqJWG_q9izNwZ-UkKoXBsbKl2I3DpyQlQGfmc61lGWYsWtWiF71DBt2li5ws0o4Lh6JYbs_hEvXOtP64PLuadRJlpW3urbMeDC4Ji-usrUo7Zxh"/>
+<h4 class="font-bold text-lg text-gray-900 dark:text-white">Family Therapy</h4>
+<p class="text-sm text-gray-600 dark:text-gray-300">Supportive therapy for families to improve communication and resolve conflicts.</p>
+</div>
+<div class="flex-shrink-0 w-64 bg-white dark:bg-gray-800 rounded-xl shadow-md p-4">
+<img alt="Anxiety Treatment" class="w-full h-40 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACZC21wpsptLEwcwJFIkJQP6a_2M-2ZOAaPlY7-Bo2IOXBk631X_waHiR2nnF1P4IqcMDx4MxoRj1lEc2Iv9dGHrRzM5zs2qQzevmIazvYQw3pOcRNCQobuCor7o_pI95P5l-KLe7PApD56x08dqEGfUltb02t6sxL05QAzVGMrQU6PmQSMHiF2lAuWloaWsJepIqyZ5P6j3DOsh9rU4B3OWv0HwDGhfg0XGLspHcV5Bm2mGiyIiuSxlQl7jNCh_l7exiULqmd3VaX"/>
+<h4 class="font-bold text-lg text-gray-900 dark:text-white">Anxiety Treatment</h4>
+<p class="text-sm text-gray-600 dark:text-gray-300">Effective strategies to manage and reduce anxiety symptoms.</p>
+</div>
+<div class="flex-shrink-0 w-64 bg-white dark:bg-gray-800 rounded-xl shadow-md p-4">
+<img alt="Depression Treatment" class="w-full h-40 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDsODlPHcjXIkC-VKfir9my_vRJalyLOlXkCMKRpQYQbMdU7ns_vZjuycBbMgVi0xrs3dR6TxhMaWOwbzED9OXlkaA5AB1rWMbjLwl53esP9d4OVW8tOfnlU-yIJspDV-z0lE6YMR3mm5o2W3pAfKQNgnOVBsAKLK_5GWKGIqnIi3u4uksNiRKYZ0R7wCoARI23snLt6ci_p2_rF8JR87j_3YoRcCkEfMwq3r5cMiMFr8yvCTLlRMHGZ-LOIz0w6JfBOayBlNR1PWV1"/>
+<h4 class="font-bold text-lg text-gray-900 dark:text-white">Depression Treatment</h4>
+<p class="text-sm text-gray-600 dark:text-gray-300">Comprehensive treatment for depression to restore hope and improve mood.</p>
+</div>
+</div>
+</section>
+<section class="py-12 px-4" id="testimonials">
+<h2 class="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">Client Testimonials</h2>
+<div class="space-y-8">
+<div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+<div class="flex items-center gap-4 mb-4">
+<img alt="Ethan Carter" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbcMwVAS5nH6Fuu8rf9_zMvr8jI0bXzK2CmRdAz0AYD_AmOCUFDv5mdT0wcO7RiaNU3wo-xb0BA5vPKRjrE4OMiHgmiU0Y-beSyLNZazkwoejcEN0KhtVXkMINgrjrsXtwrRgPrPwB97KY_HKtEoLimVuT05acjkadOq0wbBQmyXDnXeWSNrkOjtufNpyZfHZtzdrJl-IA5IKMGIFinzocJisSUgsFyh-fO5rgJ0Zk0U38q6QQRVLAJRmeDQJ8fnA_A54827r3r73P"/>
+<div>
+<p class="font-bold text-gray-900 dark:text-white">Ethan Carter</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">2 months ago</p>
+</div>
+</div>
+<div class="flex text-primary mb-2">
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+</div>
+<p class="text-gray-600 dark:text-gray-300 mb-4">
+                  Dr. Hayes has been instrumental in my journey towards self-discovery and healing. Her empathetic approach and insightful guidance have helped me navigate
+                  complex emotions and develop coping mechanisms. I highly recommend her services.
+                </p>
+</div>
+<div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md">
+<div class="flex items-center gap-4 mb-4">
+<img alt="Sophia Bennett" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaa_y3p6hqojhi9aECFGLdYUvrzMRLft3tO1NJ3BR2Z0OK3TABcHxM8P6nW2pgbWGFp7aAFQ3Ekd-QXmmzSsB86Bt4PoADq-5Dp9aRrBy9kwDdmD84zn_SLDrz3Uci8v3FrERLRxlO7VNwkLjllP6StvlhS0T4PowxtSYn_s3WD0BXHrZZcMTcQB-jTUSiJu7v4th49WGELOBdbXUQK51Q6yN9ebwEIkQqTjTW3-N48ZPpQAjpUV-x6Hf6AFKneXM-Yx8DtI6jGUBY"/>
+<div>
+<p class="font-bold text-gray-900 dark:text-white">Sophia Bennett</p>
+<p class="text-sm text-gray-500 dark:text-gray-400">3 months ago</p>
+</div>
+</div>
+<div class="flex text-primary mb-2">
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+<span class="material-symbols-outlined text-lg">star</span>
+</div>
+<p class="text-gray-600 dark:text-gray-300 mb-4">
+                  I am incredibly grateful for the support and expertise of Dr. Hayes. She created a safe space for my family to address our challenges and strengthen our
+                  relationships. Her guidance has been invaluable.
+                </p>
+</div>
+</div>
+</section>
+<section class="py-12 px-4 bg-background-light dark:bg-background-dark" id="contact">
+<h2 class="text-3xl font-bold text-center mb-8 text-gray-900 dark:text-white">Contact &amp; Online Booking</h2>
+<form class="max-w-lg mx-auto space-y-4">
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="name">Name</label>
+<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-primary focus:border-primary text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500" id="name" placeholder="Your Name" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="email">Email</label>
+<input class="form-input w-full rounded-lg border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-primary focus:border-primary text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500" id="email" placeholder="Your Email" type="email"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1" for="message">Message</label>
+<textarea class="form-textarea w-full rounded-lg border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 focus:ring-primary focus:border-primary text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500" id="message" placeholder="Your Message" rows="4"></textarea>
+</div>
+<div class="text-right">
+<button class="px-6 py-3 bg-primary text-white font-bold rounded-lg shadow-lg hover:bg-opacity-90 transition-transform transform hover:scale-105" type="submit">Send Message</button>
+</div>
+</form>
+</section>
+</main>
+</div>
+<footer class="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 fixed bottom-0 left-0 right-0">
+<nav class="flex justify-around p-2">
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<span class="material-symbols-outlined"> home </span>
+<span class="text-xs font-medium">Home</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#about">
+<span class="material-symbols-outlined"> person </span>
+<span class="text-xs font-medium">About</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#services">
+<span class="material-symbols-outlined"> medical_services </span>
+<span class="text-xs font-medium">Services</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary" href="#contact">
+<span class="material-symbols-outlined"> email </span>
+<span class="text-xs font-medium">Contact</span>
+</a>
+</nav>
+</footer>
+</div>
+
+</body></html>
